@@ -1,0 +1,81 @@
+.sidebar {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Nunito", sans-serif;
+  width: auto;
+  background-color: #20b96f;
+  padding: 20px;
+  transition: width 0.3s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+
+  .collapsed {
+    width: 0;
+    transition: width 0.3s ease;
+  }
+}
+
+.logo-container {
+  margin-left: 20px;
+  margin-top: 14px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 73.54px 20px;
+}
+
+a img {
+  margin-right: 18.23px;
+  width: 13px;
+  height: auto;
+}
+#campaign {
+  background-color: white;
+  border: 0.56px solid #e2def9;
+  box-shadow: -28px 22px 45px rgba(27, 29, 66, 0.139423);
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#campaign a {
+  color: #20b96f !important;
+  position: relative;
+  left: 0px;
+}
+#whiteArrow {
+  margin-left: 73px;
+  margin-right: 0;
+}
+#greenArrow {
+  margin-left: 38px;
+  margin-right: 0;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 10px;
+}
+
+.nav-link .icon {
+  margin-right: 10px;
+}
